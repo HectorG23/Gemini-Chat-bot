@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h2 class="title">¡Hola, Bienvenido!</h2>
+        <h4 class="subtitle">¿Como puedo ayudarte hoy?</h4>
+
+        <ul class="suggestion-list">
+            <li class="suggestion">
+                <h4 class="text">Ayudame a planear un juego nocturno junto a mis amigos por debajo de $100</h4>
+                <span class="icon material-symbols-rounded">draw</span>
+                
+            </li>
+            <li class="suggestion">
+                <h4 class="text">cuales son los mejores tips para practicar mi habla en publico</h4>
+                <span class="icon material-symbols-rounded">lightbulb</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">¿puedes ayudarme a encontrar las ultimas noticias sobre desarrollo web?</h4>
+                <span class="icon material-symbols-rounded"> explore</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">escribe un codigo en javascript que integre todos los elementos en un array</h4>
+                <span class="icon material-symbols-rounded">code</span>
+            </li>
+        </ul>
+    </header>
+
+    <div class="chat-list"></div>
+    <div class="typing-area">
+        <form action="#" class="typing-form">
+            <div class="input-wrapper">
+                <input type="text" placeholder="ingrese una linea de texto aqui" class="typing-input" required>
+                <button class="icon material-symbols-rounded">send</button>
+            </div>
+            <div class="action-buttons">
+                <span id="toggle-theme-button" class="icon material-symbols-rounded">light_mode</span>
+                <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+            </div>
+        </form>
+        <p class="disclaimer-text">
+            gemini puede mostrar información inexacta, incluso sobre personas, así que compruebe sus respuestas.
+        </p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
